@@ -6,7 +6,7 @@ DS-docker is a docker container for Datascience and Machine Learning projects.
 * Install docker https://docs.docker.com/engine/installation/
 * Clone the project `git clone https://github.com/anishjoshi/ds-docker.git`
 * Go inside the ds-docker project `$ cd ds-docker`
-* Run `$ docker build -t dsdocker .`
+* Run `$ docker build -t ds-docker .`
 * After the build is complete run the docker container
 * Run `$ docker run -it -v "$PWD:/mnt" ds-docker`
 
